@@ -13,7 +13,7 @@ export default function
                             <span className=''><img src={img10}></img></span>
                         </div>
                         <div className="row">
-                            <div className="col-sm-2">
+                            <div className="col-sm-3">
                                 <ul className='unlist'>
                                     <h5>Top Cities</h5>
                                     <li>Victoria Island</li>
@@ -22,7 +22,7 @@ export default function
                                     <li>Yaba</li>
                                 </ul>
                             </div>
-                            <div className="col-sm-2">
+                            <div className="col-sm-3">
                                 <ul className='unlist'>
                                     <h5>Work with us</h5>
                                     <li>Become a Shopper</li>
@@ -40,7 +40,7 @@ export default function
                                     <li>Press</li>
                                 </ul>
                             </div>
-                            <div className="col-sm-2">
+                            <div className="col-sm-3">
                                 <ul className='unlist'>
                                     <h5>Legal</h5>
                                     <li>Terms of Use</li>
@@ -59,7 +59,7 @@ export default function
             <section className='section2'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 two">
+                        <div className="col-md-9 two">
                             <p>© 2022 Shopascart, inc. All rights reserved.</p>
                             <p>Offer only available to new members. Use code FIRSTORDER at checkout to get your first delivery free.</p>
                         </div>
@@ -71,9 +71,11 @@ export default function
                         <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                     </ul>
                     <div className="row">
-                        <div className='d-flex justify-content-start'>
-                            <img src={brand} alt="brand" className='brand1' />
-                            <img src={brand2} alt="brands" className='brand1' />
+                        <div className="col-md-8">
+                            <div className='d-flex'>
+                                <img src={brand} alt="brand" style={{width:"104px",height:"30px", padding:"0px 15px"}} className='brand' />
+                                <img src={brand2} alt="brands" style={{width:"104px",height:"30px", padding:"0px 15px"}} className='brand' />
+                            </div>
                         </div>
                         <p className='text-white mt-3'>Coming soon</p>
                     </div>
