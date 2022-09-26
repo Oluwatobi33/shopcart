@@ -1,6 +1,6 @@
 import React from 'react'
 import img10 from '../assests/images/10.png'
-import brand from '../assests/images/new1.PNG'
+import brand1 from '../assests/images/new1.PNG'
 import brand2 from '../assests/images/new2.PNG'
 export default function
     () {
@@ -72,9 +72,9 @@ export default function
                     </ul>
                     <div className="row">
                         <div className="col-md-8">
-                            <div className='d-flex'>
-                                <img src={brand} alt="brand" style={{width:"104px",height:"30px", padding:"0px 15px"}} className='brand' />
-                                <img src={brand2} alt="brands" style={{width:"104px",height:"30px", padding:"0px 15px"}} className='brand' />
+                            <div className='d-flex '>
+                                <img src={brand1} alt="brands" style={{ width: "200px", height: "50px", padding: "0px " }} className='mx-3' />
+                                <img src={brand2} alt="brands" style={{ width: "200px", height: "50px", padding: "0px " }} />
                             </div>
                         </div>
                         <p className='text-white mt-3'>Coming soon</p>

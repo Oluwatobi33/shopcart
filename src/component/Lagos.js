@@ -51,14 +51,11 @@ export default function Lagos() {
           </div>
         </div>
       </div>
-      <div className="containter">
-
-      </div>
-        <div className='container'>
-          <div className="row">
+      <div className='container'>
+        <div className="row horizonatl-scroll">
           <div className='col-md-4'>
             <div className="card border border-0 flow">
-              <div className="card-body">
+              <div className="card-body item">
                 <h2 className="card-title right">Choose what you want</h2>
                 <p className="card-text select">Select items from your favorite grocery stores or local markets.</p>
                 <img src={Image10} className='card-img-top top1' alt="..." />
@@ -67,7 +64,7 @@ export default function Lagos() {
           </div>
           <div className='col-md-4'>
             <div className="card border border-0 flow">
-              <div className="card-body">
+              <div className="card-body item">
                 <h2 className="card-title  right">Choose what you want</h2>
                 <p className="card-text select">Select items from your favorite grocery stores or local markets.</p>
                 <img src={Image11} className='card-img-top top1' alt="..." />
@@ -76,15 +73,15 @@ export default function Lagos() {
           </div>
           <div className='col-md-4'>
             <div className="card border border-0 flow">
-              <div className="card-body">
+              <div className="card-body item">
                 <h2 className="card-title  right">Choose what you want</h2>
                 <p className="card-text select">Select items from your favorite grocery stores or local markets.</p>
                 <img src={Image12} className='card-img-top top1' alt="..." />
               </div>
             </div>
           </div>
-          </div>
         </div>
+      </div>
     </>
   )
 }

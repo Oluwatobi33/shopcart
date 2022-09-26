@@ -23,21 +23,21 @@ function Go() {
           </div>
         </div>
         <div className="row  justify-content-center my-4 ">
-          <div className='col-md-4 align-items-center'>
-            <div className='wrap text-center'>
+          <div className='col-md-4 text-center'>
+            <div className='wrap'>
               <h4 className='text-white fw-bold-2 pt-3'>Shopascart Plus</h4>
               <p style={{ color: 'white' }}>Unlimited delivery on orders over ₦5000</p>
-                <h1 className='text-white fs-5'>₦3000/month or <br /> ₦25000/year</h1>
-                <button className='plus'><span style={{ color: '#D92D20' }}>Get Shopascart Plus</span></button>
+              <h1 className='text-white fs-5'>₦3000/month or <br /> ₦25000/year</h1>
+              <button className='plus'><span style={{ color: '#D92D20' }}>Get Shopascart Plus</span></button>
             </div>
           </div>
         </div>
-        <div className="row mt-3 justify-content-center text-center" style={{fontSize:10}}>
-        <p>Deliveries under ₦5000 with or without a Shopascart+ membership will incur a ₦1800 fee <br /> and applicable taxes and service fees per order.</p>
+        <div className="row mt-3 justify-content-center text-center" style={{ fontSize: 10 }}>
+          <p>Deliveries under ₦5000 with or without a Shopascart+ membership will incur a ₦1800 fee <br /> and applicable taxes and service fees per order.</p>
         </div>
       </div>
-      </>
-      )
+    </>
+  )
 }
 
-      export default Go
+export default Go
