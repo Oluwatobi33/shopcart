@@ -57,8 +57,8 @@ export default function Lagos() {
             <div className="card border border-0 flow">
               <div className="card-body item">
                 <h2 className="card-title right">Choose what you want</h2>
-                <p className="card-text select">Select items from your favorite grocery stores or local markets.</p>
-                <img src={Image10} className='card-img-top top1' alt="..." />
+                <p className="card-text select">Select items from your favorite  <br /> grocery stores or local markets.</p>
+                <img src={Image10} className='card-img-top top1' alt="jjj" />
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@ export default function Lagos() {
             <div className="card border border-0 flow">
               <div className="card-body item">
                 <h2 className="card-title  right">Choose what you want</h2>
-                <p className="card-text select">Select items from your favorite grocery stores or local markets.</p>
+                <p className="card-text select">Select items from your favorite <br /> grocery stores or local markets.</p>
                 <img src={Image11} className='card-img-top top1' alt="..." />
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function Lagos() {
             <div className="card border border-0 flow">
               <div className="card-body item">
                 <h2 className="card-title  right">Choose what you want</h2>
-                <p className="card-text select">Select items from your favorite grocery stores or local markets.</p>
+                <p className="card-text select">Select items from your favorite <br /> grocery stores or local markets.</p>
                 <img src={Image12} className='card-img-top top1' alt="..." />
               </div>
             </div>

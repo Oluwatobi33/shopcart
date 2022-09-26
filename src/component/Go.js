@@ -22,8 +22,10 @@ function Go() {
             <p style={{ color: "black" }}>Choose a plan that fits your shopping needs and get started.</p>
           </div>
         </div>
-        <div className="row  justify-content-center my-4 ">
-          <div className='col-md-4 text-center'>
+      </div>
+      <div className='container'>
+        <div className="row justify-content-center my-4 ">
+          <div className='col-md-4 m-auto'>
             <div className='wrap'>
               <h4 className='text-white fw-bold-2 pt-3'>Shopascart Plus</h4>
               <p style={{ color: 'white' }}>Unlimited delivery on orders over ₦5000</p>

@@ -7,11 +7,11 @@ import Image5 from '../assests/images/8.png'
 export default function Nav() {
   return (
     <>
-      <div className='container-fluid  align-items-center  bg-nav'>
+      <div className='container-fluid  align-items-center   bg-nav'>
         <div className="row justify-content-center">
           <div className='col-md-10  ps-5'>
             <span id='first'>First order, ₦0 delivery fee. Use promo code</span>
-            <span className='text-white'><img src={Image1} className='two img-responsive img-fluid w-5'/>FIRSTORDER</span>
+            <span className='text-white'><img src={Image1} className='two img-responsive img-fluid w-5' />FIRSTORDER</span>
           </div>
           <div className='col-md-2'>
             <img src={Image2} alt="" className='justify-content-end img-responsive img-fluid' />
@@ -48,7 +48,7 @@ export default function Nav() {
         </div>
       </nav>
       <section className='section3 container-fluid c0l-lg-12 col-sm-12'>
-        <div className='container pt-4'>
+        <div className='container pt-5'>
           <div className="row ">
             <div className='col-md-7'>
               <h3 className='get1'><strong>Get your groceries<br></br>
@@ -61,7 +61,7 @@ export default function Nav() {
               </div>
             </div>
             <div className='col-md-5'>
-              <img src={Image5} className=' dis img-responsive img-fluid' width={370} />
+              <img src={Image5} className=' dis img-responsive img-fluid' width='470px' height='200px' />
             </div>
           </div>
         </div>
