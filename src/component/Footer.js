@@ -10,7 +10,7 @@ export default function
                 <div className='container justify-content-center'>
                     <div className="row pt-5">
                         <div className='col-lg-12 col-md-12 px-5 '>
-                            <span className=''><img src={img10}></img></span>
+                            <span className=''><img src={img10} /></span>
                         </div>
                         <div className="row">
                             <div className="col-sm-3">

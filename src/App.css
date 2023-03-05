@@ -97,22 +97,29 @@
 }
 .right {
   color: black;
-  font-size: 27px;
+  font-size: 17px;
   margin: 20px 0px 0px;
 }
 .select {
   color: #475467;
-  font-size: 19px;
+  font-size: 14px;
+  word-break: break-all;
 }
 .flow {
   background-color: #f9fafb !important;
   margin: 40px 0px 0px !important;
   display: block;
   white-space: nowrap;
+  width: auto;
 }
 .item {
   display: inline-block;
   margin-right: 10px;
+  width: 300px;
+  box-sizing: border-box;
+}
+.item img {
+  width: 400px;
 }
 .horizonatl-scroll {
   display: block;
@@ -243,7 +250,7 @@
   width: 32px;
 }
 .top1 {
-  width: 280px;
+  width: 300px !important;
   height: 240px;
 }
 .section3 {
