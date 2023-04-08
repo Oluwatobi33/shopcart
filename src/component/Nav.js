@@ -47,7 +47,7 @@ export default function Nav() {
           </div>
         </div>
       </nav>
-      <section className='section3 container-fluid c0l-lg-12 col-sm-12'>
+      <section className='section3 container-fluid col-lg-12 col-sm-12'>
         <div className='container pt-5'>
           <div className="row ">
             <div className='col-md-7'>
@@ -61,7 +61,7 @@ export default function Nav() {
               </div>
             </div>
             <div className='col-md-5'>
-              <img src={Image5} className=' dis img-responsive img-fluid' width='470px' height='200px' />
+              <img src={Image5} className=' dis img-responsive img-fluid' width='670px' height='500px' />
             </div>
           </div>
         </div>

@@ -52,36 +52,41 @@ export default function Lagos() {
         </div>
       </div>
       <div className='container'>
-        <div className="row horizonatl-scroll">
-          <div className='col-md-4 col-sm-4'>
-            <div className="card border border-0 flow">
-              <div className="card-body item">
-                <h2 className="card-title right">Choose what you want</h2>
-                <p className="card-text select">Select items from your favorite  <br /> grocery stores or local markets.</p>
-                <img src={Image10} className='card-img-top top1' alt="jjj" />
+        <div className="row">
+          <div className="col-md-8">
+            <div className="straight">
+              <div className="card border border-0 ">
+                <div className="card-body item">
+                  <h2 className="card-title right">Choose what you want</h2>
+                  <p className="card-text select">Select items from your favorite  <br /> grocery stores or local markets.</p>
+                  <img src={Image10} className='card-img-top top1' alt="jjj" />
+                </div>
+              </div>
+              <div className="card border border-0">
+                <div className="card-body item">
+                  <h2 className="card-title  right">Choose what you want</h2>
+                  <p className="card-text select">Select items from your favorite <br /> grocery stores or local markets.</p>
+                  <img src={Image11} className='card-img-top top1' alt="favpurite" />
+                </div>
+              </div>
+              <div className="card border border-0 flow">
+                <div className="card-body item">
+                  <h2 className="card-title  right">Choose what you want</h2>
+                  <p className="card-text select">Select items from your favorite <br /> grocery stores or local markets.</p>
+                  <img src={Image12} className='card-img-top top1' alt="from" />
+                </div>
               </div>
             </div>
           </div>
-          <div className='col-md-4 col-sm-4'>
-            <div className="card border border-0 flow">
-              <div className="card-body item">
-                <h2 className="card-title  right">Choose what you want</h2>
-                <p className="card-text select">Select items from your favorite <br /> grocery stores or local markets.</p>
-                <img src={Image11} className='card-img-top top1' alt="favpurite" />
-              </div>
-            </div>
-          </div>
-          <div className='col-md-4 col-sm-4'>
-            <div className="card border border-0 flow">
-              <div className="card-body item">
-                <h2 className="card-title  right">Choose what you want</h2>
-                <p className="card-text select">Select items from your favorite <br /> grocery stores or local markets.</p>
-                <img src={Image12} className='card-img-top top1' alt="from" />
-              </div>
-            </div>
-          </div>
-        </div>
+        </div >
       </div>
+      {/* <div className="straight">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+
+      </div> */}
     </>
   )
 }
